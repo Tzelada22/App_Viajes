@@ -15,8 +15,19 @@
             android:name=".minigaleriaActivity"
             android:exported="false" />
         <activity
+            android:name=".destinos"
+            android:exported="false"/>
+        <activity
+            android:name=".notas_viajeros"
+            android:exported="false" />
+        <activity
             android:name=".principalActivity"
-            android:exported="true" />
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>

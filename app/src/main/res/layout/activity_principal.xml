@@ -21,8 +21,9 @@
         android:padding="10dp"
         android:scaleType="centerInside"
         android:src="@drawable/swim"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="543dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diarioButton" />
 
     <TextView
         android:id="@+id/textView"
@@ -53,8 +54,9 @@
         android:padding="10dp"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/galeria2"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="153dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <ImageButton
         android:id="@+id/diarioButton"
@@ -64,8 +66,9 @@
         android:padding="10dp"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/diario"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="346dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/galeriaButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
