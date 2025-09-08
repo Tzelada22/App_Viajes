@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APP">
         <activity
+ fox/pantallaGaleria
             android:name=".minigaleriaActivity"
             android:exported="false" />
         <activity
+test
             android:name=".principalActivity"
             android:exported="true" />
 
