@@ -23,7 +23,7 @@
         tools:layout_editor_absoluteY="124dp" />
     <!---boton de retroceder-->
     <ImageButton
-        android:id="@+id/btnatras"
+        android:id="@+id/btn_atras"
         android:layout_width="69dp"
         android:layout_height="49dp"
         android:background="#F6B3B3"
