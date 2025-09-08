@@ -13,7 +13,7 @@
         android:theme="@style/Theme.APP">
         <activity
             android:name=".principalActivity"
-            android:exported="false" />
+            android:exported="true" />
 
     </application>
 
