@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2C6C6"
+    android:backgroundTint="#F1B1B1"
+    tools:context=".principalActivity">
+
+
+    <!--boton de la galeria-->
+    <!--titulo de viaje-->
+
+    <ImageButton
+        android:id="@+id/btnDestino"
+        android:layout_width="187dp"
+        android:layout_height="172dp"
+        android:background="@drawable/btn_circle"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/swim"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sd"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.1"
+        android:padding="12dp"
+        android:shadowColor="#88000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="VIAJES"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/galeriaButton"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:background="@drawable/btn_circle"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/galeria2"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageButton
+        android:id="@+id/diarioButton"
+        android:layout_width="187dp"
+        android:layout_height="171dp"
+        android:background="@drawable/btn_circle"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/diario"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
