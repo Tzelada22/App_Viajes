@@ -26,7 +26,7 @@
         android:id="@+id/btnatras"
         android:layout_width="69dp"
         android:layout_height="49dp"
-        android:background="#E9A8A8"
+        android:background="#F6B3B3"
         app:srcCompat="@android:drawable/ic_menu_revert"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
