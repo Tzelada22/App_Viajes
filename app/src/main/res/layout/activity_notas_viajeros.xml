@@ -19,6 +19,12 @@
             android:padding="24dp">
 
             <!-- Título -->
+            <ImageButton
+                android:id="@+id/atrasButton"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
