@@ -12,14 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APP">
         <activity
- fox/pantallaGaleria
             android:name=".minigaleriaActivity"
             android:exported="false" />
         <activity
-test
             android:name=".principalActivity"
             android:exported="true" />
-
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
     </application>
 
 </manifest>
