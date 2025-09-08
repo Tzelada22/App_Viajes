@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APP">
         <activity
+            android:name=".minigaleriaActivity"
+            android:exported="false" />
+        <activity
             android:name=".principalActivity"
             android:exported="false" />
         <activity
