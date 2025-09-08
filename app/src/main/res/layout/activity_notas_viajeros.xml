@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notas_viajeros">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8EAF6"
+        tools:context=".NotasActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Título -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notas del Viajero"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#263238"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Contenedor del campo para el nombre del usuario -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/rounded_background"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/edit_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingresa tu nombre..."
+                    android:inputType="textPersonName"
+                    android:textColor="#455A64"
+                    android:background="@android:color/transparent"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <!-- Contenedor para el campo de las notas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/rounded_background"
+                android:elevation="4dp"
+                android:layout_marginBottom="24dp">
+
+                <EditText
+                    android:id="@+id/edit_nota"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:gravity="top|start"
+                    android:hint="Escribe tus notas aquí..."
+                    android:inputType="textMultiLine"
+                    android:textColor="#455A64"
+                    android:background="@android:color/transparent"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <!-- Botón de Guardar pero solo es para el diseño no tiene ninguna funcionalidad -->
+            <Button
+                android:id="@+id/btn_guardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar Nota"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#00796B"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
